@@ -1,5 +1,4 @@
 let fs = require('fs');
-//let exec = require('child_process').exec;
 
 module.exports = class ClassMain {
 
@@ -39,7 +38,6 @@ module.exports = class ClassMain {
 
     runCmd (cmd) {
       var sys = require('sys')
-      //var exec = require('child_process').exec;
       function puts(error, stdout, stderr) {
           sys.puts(stdout)
       }
